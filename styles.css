@@ -1,12 +1,13 @@
 *{
     font-family: 'Courier New', Courier, monospace;
+    color:white;
 }
 body{
     padding:0px:
     margin:0px;
-    background-color:#252525;
+    background-color:#202020;
 }
 .titulo{
     text-align:center;
-    color:white;
+    
 }
