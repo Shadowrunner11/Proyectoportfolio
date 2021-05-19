@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lorem, ipsum.</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
     <script href="script.js">
 
     </script>
@@ -32,43 +34,107 @@
     </section>
     <hr>
     <section class="secccion2">
-        <div>
-            <h3>Tayectoria de aprendizaje</h3>
-            <ol>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, facilis.</li>
-                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, mollitia?</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, tempore.</li>
-            </ol>
-        </div>
-        <div>
-            <h3>Tayectoria de aprendizaje</h3>
-            <ol>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, facilis.</li>
-                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, mollitia?</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, tempore.</li>
-            </ol>
-        </div>
-        <div>
-            <h3>Tayectoria de aprendizaje</h3>
-            <ol>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, facilis.</li>
-                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, mollitia?</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, tempore.</li>
-            </ol>
+        <h2 class="titulo2">TRAYECTORIA ESTUDIANTIL</h2>
+        <div class="container">
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <i><img src="python-logo-white-300x300.png" alt=""></i>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <h3>
+                            PYTHON
+                        </h3>
+                        <ul>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <i><img src="python-logo-white-300x300.png" alt=""></i>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <h3>
+                            JAVA
+                        </h3>
+                        <ul>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <i><img src="python-logo-white-300x300.png" alt=""></i>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <h3>
+                            HTML\CSS
+                        </h3>
+                        <ul>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <i><img src="python-logo-white-300x300.png" alt=""></i>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <h3>
+                            JavaScript
+                        </h3>
+                        <ul>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <hr>
-    <section>    
-        <form part="">
-        CONTACTOS
-        Nombres: <input type="text"><br>
-        Telefono: <input type="numer"><br>
-        Email: <input type="email"><br>
-        Favorite color: <input type="color"><br>
-        <input type="button" value="Enviar">
-        </form>
+    <section>
+        <h2>Contactos</h2>   
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+            <div class="row">
+              <label class="required" for="name">Nombres:</label><br />
+              <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+              <span id="name_validation" class="error_message"></span>
+            </div>
+            <div class="row">
+              <label class="required" for="email">Email:</label><br />
+              <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+              <span id="email_validation" class="error_message"></span>
+            </div>
+            <div class="row">
+              <label class="required" for="message">Mensaje:</label><br />
+              <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+              <span id="message_validation" class="error_message"></span>
+            </div>
+              <input id="submit_button" type="submit" value="Send email"/>
+          </form>
     </section>
-    
-
 </body>
 </html>
