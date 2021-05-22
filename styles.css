@@ -6,15 +6,20 @@ body{
     padding:0px:
     margin:0px;
     background-color:#202020;
+
 }
+h1{
+    font-size: 400px;}
+
+
 .titulo{
     text-align:center;
     
 }
 .seccion1{
-    background-image: url("Recurso 346.png");
+    background-image: url("img/Recurso\ 346.png");
     background-color:#202020;
-    height: 790px;
+    height: 1000px;
     color:white;
     background-position: center;
     background-size: cover;
@@ -24,16 +29,54 @@ body{
 
 /* redes sociales */
 
-
+#t1{
+    font-size: 40px;
+}
+#t2{
+    font-size: 60px;
+}
 .saludo{
     text-align: left;
     position: relative;
-    top: 50%;
+    top: 60%;
     left: 53%;
     transform: translate(-50%, -30%);
+    font-size: 60px;
+    
+    
 }
 .card:hover{
     transform: scale(1.05);
     box-shadow:0 0 10px rgba(0,0,0,0.5);
 }
+.redes{
+    font-size: 20px;
+    position: relative;
+    bottom: -65%;
+    left: 3%
+    
 
+}
+@media only screen and (max-width: 1000px) {
+.seccion1{
+      background-image: url(img/Recurso346.png);
+      
+    }
+div.saludo{
+    text-align: center;
+    
+    
+}
+#t1{
+    font-size: 35px;
+}
+#t2{
+    font-size: 45px;
+}
+.redes{
+    bottom: -65%;
+    font-size: 20px;
+    
+}
+
+}
