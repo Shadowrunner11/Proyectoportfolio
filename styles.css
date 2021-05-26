@@ -3,18 +3,12 @@
     
 }
 body{
-    padding:0px:
+    padding:0px;
     margin:0px;
     background-color:#202020;
-
 }
 h1{
-    font-size: 400px;}
-
-
-.titulo{
-    text-align:center;
-    
+    font-size: 400px;
 }
 .seccion1{
     background-image: url("img/Recurso\ 346.png");
@@ -48,7 +42,10 @@ h1{
 .card:hover{
     transform: scale(1.05);
     box-shadow:0 0 10px rgba(0,0,0,0.5);
+    background:url(https://image.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1409.jpg);
+    color: honeydew;
 }
+
 .redes{
     font-size: 20px;
     position: relative;
